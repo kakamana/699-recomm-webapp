@@ -1,0 +1,6 @@
+# First initialize git in project folder
+git init
+# Add remote repo URL
+git remote add origin https://github.com/kakamana/699-recomm-webapp.git
+# Add files to git
+git add .
