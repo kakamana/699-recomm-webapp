@@ -11,3 +11,6 @@ git push -u origin main
 # To see what files have changed
 git status
 # To commit new changes
+git commit -m "Description of new change"
+# push to github
+git push
