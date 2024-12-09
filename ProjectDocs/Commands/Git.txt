@@ -4,3 +4,10 @@ git init
 git remote add origin https://github.com/kakamana/699-recomm-webapp.git
 # Add files to git
 git add .
+# Commit changes to git with message
+git commit -m "Initial commit"
+# Push to github
+git push -u origin main
+# To see what files have changed
+git status
+# To commit new changes
