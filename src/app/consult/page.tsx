@@ -4,7 +4,11 @@ import { useState } from "react";
 import QueryInput from "@/components/consult/QueryInput";
 
 export default function ConsultPage() {
-  const [recommendations, setRecommendations] = useState([]); // Store recommendations
+  interface Recommendation {
+    text: string;
+  }
+
+  const [recommendations, setRecommendations] = useState<Recommendation[]>([]); // Store recommendations
   const [currentIndex, setCurrentIndex] = useState(0); // Track the current recommendation
 
   const fetchData = async (query: string, numPosts: number) => {
